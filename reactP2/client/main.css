@@ -1,0 +1,12 @@
+/* CSS declarations go here */
+
+/*search bar */
+.search_bar{
+  padding:20px;
+
+}
+.search_bar input{
+  width:70%;
+  display:block;
+  margin:0 auto;
+}

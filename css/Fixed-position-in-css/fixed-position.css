@@ -1,0 +1,21 @@
+.container{
+	width:50%;
+	height:600px;
+	position:relative;
+	margin:0 auto;
+	background-color:black;
+}
+.green-box{
+    
+  position:absolute;
+bottom:0;
+padding:0;
+margin:0;
+right:0;
+
+}
+.yellow-box{
+	position:fixed;
+	top:0;
+	left:0;
+}

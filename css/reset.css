@@ -1,0 +1,14 @@
+/*Reset Counter*/
+
+
+body{
+	counter-reset:rowman;
+}
+
+.row-item:checked{
+	counter-increment: rowman;
+}
+.total::after{
+	color:black;
+	content:counter(rowman,upper-roman);
+}

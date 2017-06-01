@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    body {
+        font-family: helvetica;
+        text-align: center;
+        background-color: lightblue;
+    }
+    
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    .column {
+        padding: 5%;
+        background-color: grey;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .button {
+        position: absolute;
+        bottom: 10px;
+        cursor: pointer;
+        left: 10px;
+        width: 200px;
+        height: 40px;
+        border: none;
+        font-size: 1.1em;
+    }
+    
+    h1 {
+        text-align: center;
+        font-size: 3em;
+    }
+    
+    .rowman {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .row-item {
+        padding: 3%;
+        background-color: red;
+        cursor: pointer;
+        color: white;
+
+    }
+    </style>
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+    <h1>Holy Grail -CSS Counter</h1>
+    <div class="column">
+        <h2>select friends to invite</h2>
+        <div class="rowman">
+            <input type='checkbox' class="row-item">
+            <input type='checkbox' class="row-item">
+            <input type='checkbox' class="row-item">
+            <input type='checkbox' class="row-item">
+            <input type='checkbox' class="row-item">
+        </div>
+    </div>
+    <button class="button">Invite <span class="total"></span> friends</button>
+</body>
+
+</html>

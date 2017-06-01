@@ -1,0 +1,88 @@
+h2{
+    color: red;
+}
+
+ p{
+    color: green;
+}
+section p{
+    color: blue;
+}
+
+img{
+    border: 5px solid #000;
+    border-radius: 5px;
+}
+
+img:hover{
+    transform: scale(1.5);
+}
+
+ul >li, h1{
+	color:red;
+}
+
+div[class]{
+    background:orange;
+}
+[alt]{
+	box-shadow:20px 20px 20px 20px black;
+	transition:linear 1s;
+}
+[alt]:hover{
+	box-shadow:2px 2px 2px 2px black;
+	transform: rotate(160deg)
+}
+
+div[class*='test']{
+	background:green;
+}
+[type='submit']{
+	width:300px;
+}
+a[href^='http']{
+	color:red;
+}
+a[href$=]
+a:link{
+	color:red;
+}
+p:first-of-type{
+	color:green;
+}
+p:nth-of-type(2){
+	background-color:blue;
+}
+
+p:only-child{
+	font-size:3rem;
+}
+p:first-letter{
+	color:tan;
+	font-size:200%;
+}
+:empty{
+	border:10px solid black;
+}
+:not(h1){
+	text-indent:50px;
+}
+p:before{
+content: "";
+    display: block;
+    background: url("https://cdn4.iconfinder.com/data/icons/new-google-logo-2015/400/new-google-favicon-512.png") no-repeat left;
+    width: 20px;
+    height: 20px;
+    margin: 0 6px 0 0;
+}
+p:after{
+	content:'Great Article';
+}
+a:hover:after{
+	content:'(https://www.w3schools.com)';
+	color:red;
+	font-size:80%;
+}
+a:last-child:hover:after{
+	font-size:300%;
+}

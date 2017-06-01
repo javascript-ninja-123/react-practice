@@ -1,0 +1,21 @@
+body{
+    width: 60%;
+    margin: 0 auto;
+}
+.box{
+    margin-top: 3em;
+    width: 200px;
+    height: 200px;
+    background: red;
+    transition:all linear 0.4s;
+    cursor:pointer;
+    transition-timing-function: cubic-bezier(.17,.67,.95,.24);
+    border:none;
+}
+
+.box:hover{
+  background:blue;
+  width:1000px;
+  transform:skewX(30deg) rotate(-30deg) scale(1.5);
+}
+-wmso-trf

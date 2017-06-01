@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Static CSSCasts</title>
+    <!-- CSSCasts favicon-->
+    <link rel="favicon" href="favicon.ico" type="image/x-icon" />
+    <!-- Roboto Condensed File-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <!-- Material Icons File-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- MDL CSS File-->
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-pink.min.css">
+    <!-- App Styles File-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!--  mdl layout starts here-->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <!-- mdl header starts here -->
+        <header class="mdl-layout__header mdl-shadow--6dp">
+            <!-- mdl header row starts here -->
+            <div class="mdl-layout__header-row">
+                <!-- website title -->
+                <span class="mdl-layout-title">
+                    <img class="logo" src='images/logo.png' alt="logo"/>
+                    CSS Tutorial
+                    </span>
+                <!-- spacer -->
+                <div class="mdl-layout-spacer"></div>
+                <!-- search function -->
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                  mdl-textfield--floating-label mdl-textfield--align-right">
+                    <label class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp">
+                        <i class="material-icons">search</i>
+                    </label>
+                    <div class="mdl-textfield__expandable-holder">
+                        <input class="mdl-textfield__input" type="text" name="sample" id="fixed-header-drawer-exp">
+                    </div>
+                </div>
+                <!-- search ends -->
+            </div>
+            <!-- mdl header row ends here -->
+            <!-- mdl taps start here -->
+            <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+                <a href="#home" class="mdl-layout__tab is-active">Home</a>
+                <a href="#beginners" class="mdl-layout__tab">Beginners</a>
+                <a href="#intermediate" class="mdl-layout__tab">Intermediate</a>
+                <a href="#expert" class="mdl-layout__tab">Expert</a>
+                <a href="#preprocessor" class="mdl-layout__tab">Preprocessor</a>
+                <a href="#frameworks" class="mdl-layout__tab">Frameworks</a>
+                <a href="#plugins" class="mdl-layout__tab">Libs & Plugins</a>
+                <a href="#tips" class="mdl-layout__tab">Tips & Tricks</a>
+                <a href="#css" class="mdl-layout__tab">Build with CSS</a>
+            </div>
+            <!-- mdl taps end here -->
+        </header>
+        <!-- mdl header ends here -->
+        <!-- mdl layout drawer starts here -->
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">This week</span>
+            <div class="mdl-navigation">
+                <a href="" class="mdl-navigation__link">Flexbox</a>
+                <a href="" class="mdl-navigation__link">MDL</a>
+                <a href="" class="mdl-navigation__link">Selectors</a>
+            </div>
+        </div>
+        <!-- mdl layout drawer ends here -->
+        <!-- mdl layout contents start here -->
+        <main class="mdl-layout__content">
+            <!-- home content start here -->
+            <section class="mdl-layout__tab-panel is-active" id="home">
+                <!--page contents start here  -->
+                <div class="page-content">
+                    <!-- home section header starts here -->
+                    <header class="home-section__header show-modal">
+                        <!-- home section content starts here -->
+                        <div class="home-section_header-content">
+                            <h3><q>The Most Powerful CSS Framework on planet</q></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam molestias hic quod voluptas ratione eligendi molestiae tempore, perferendis amet voluptate.</p>
+                            <div>
+                                <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-shadow--6dp">Visit my course</button>
+                                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent mdl-shadow--6dp">Author</button>
+                            </div>
+                        </div>
+                        <!-- home section content ends here -->
+                    </header>
+                    <!--home section header ends here  -->
+                    <!-- home section content starts here -->
+                    <div class="home-section__content">
+                        <!-- course detail starts here -->
+                        <div class="course-detail">
+                            <div class="mdl-grid course-detail-row">
+                                <div class="mdl-cell mdl-cell--4-col course-detail-cell mdl-cell--12-col-tablet">
+                                    <i class="material-icons icon-50">video_library</i>
+                                    <h5>35+ hours contents</h5>
+                                    <p>You will get 35+ hour content</p>
+                                </div>
+                                <div class="mdl-cell mdl-cell--4-col course-detail-cell mdl-shadow--6dp mdl-cell--12-col-tablet">
+                                    <i class="material-icons icon-50">update</i>
+                                    <h5>Updates Weekly</h5>
+                                    <p>This course is updated weekly with many videos</p>
+                                </div>
+                                <div class="mdl-cell mdl-cell--4-col course-detail-cell mdl-cell--12-col-tablet">
+                                    <i class="material-icons icon-50">star</i>
+                                    <h5>5 Star Rated Course</h5>
+                                    <p>This course got many 5 star ratings</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- course detail ends here -->
+                        <!-- divider-1 starts here -->
+                        <div class="divider-1">
+                            <hr>
+                            <div class="mdl-grid divider-row">
+                                <div class="mdl-cell mdl-cell--12-col divider-cell">
+                                    <h4>Learn Everything about CSS from Start to Finish</h4>
+                                    <button class=" mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect">Enroll Now</button>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                        <!-- divider-1 ends here -->
+                        <!-- course section starts here -->
+                        <div class="courses">
+                            <div class="courses-section-title">
+                                <h4>Learn Everything about CSS</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium veniam quisquam ullam expedita earum at, debitis nemo iusto vitae inventore rerum nobis facere atque, sed fugit tempora quasi quidem qui.</p>
+                            </div>
+                            <div class="mdl-grid courses-grid">
+                                <!-- course cell starts here -->
+                                <div class="mdl-cell mdl-cell--3-col card-shadow">
+                                    <div class="mdl-card mdl-shadow--2dp">
+                                        <div class="mdl-card__media">
+                                            <img src="images/home/courses/beginners.jpg" alt="beginner" />
+                                        </div>
+                                        <div class="mdl-card__title">
+                                            <span class="mdl-card__title-text">Welcome</span>
+                                        </div>
+                                        <div class="mdl-card__actions">
+                                            <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                                                Learn Now
+                                            </button>
+
+                                            <div class='tag tag-live mdl-shadow--6dp'>Live</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mdl-cell mdl-cell--3-col">
+                                    <div class="mdl-card mdl-shadow--2dp">
+                                        <div class="mdl-card__media">
+                                            <img src="images/home/courses/beginners.jpg" alt="beginner" />
+                                        </div>
+                                        <div class="mdl-card__title">
+                                            <span class="mdl-card__title-text">Welcome</span>
+                                        </div>
+                                        <div class="mdl-card__actions">
+                                            <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                                                Learn Now
+                                            </button>
+                                               <div class='tag tag-indev mdl-shadow--6dp'>In Dev</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mdl-cell mdl-cell--3-col">
+                                    <div class="mdl-card mdl-shadow--2dp">
+                                        <div class="mdl-card__media">
+                                            <img src="images/home/courses/beginners.jpg" alt="beginner" />
+                                        </div>
+                                        <div class="mdl-card__title">
+                                            <span class="mdl-card__title-text">Welcome</span>
+                                        </div>
+                                        <div class="mdl-card__actions">
+                                            <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                                                Learn Now
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mdl-cell mdl-cell--3-col">
+                                    <div class="mdl-card mdl-shadow--2dp">
+                                        <div class="mdl-card__media">
+                                            <img src="images/home/courses/beginners.jpg" alt="beginner" />
+                                        </div>
+                                        <div class="mdl-card__title">
+                                            <span class="mdl-card__title-text">Welcome</span>
+                                        </div>
+                                        <div class="mdl-card__actions">
+                                            <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                                                Learn Now
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mdl-cell mdl-cell--3-col">
+                                    <div class="mdl-card mdl-shadow--2dp">
+                                        <div class="mdl-card__media">
+                                            <img src="images/home/courses/beginners.jpg" alt="beginner" />
+                                        </div>
+                                        <div class="mdl-card__title">
+                                            <span class="mdl-card__title-text">Welcome</span>
+                                        </div>
+                                        <div class="mdl-card__actions">
+                                            <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                                                Learn Now
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mdl-cell mdl-cell--3-col">
+                                    <div class="mdl-card mdl-shadow--2dp">
+                                        <div class="mdl-card__media">
+                                            <img src="images/home/courses/beginners.jpg" alt="beginner" />
+                                        </div>
+                                        <div class="mdl-card__title">
+                                            <span class="mdl-card__title-text">Welcome</span>
+                                        </div>
+                                        <div class="mdl-card__actions">
+                                            <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                                                Learn Now
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mdl-cell mdl-cell--3-col">
+                                    <div class="mdl-card mdl-shadow--2dp">
+                                        <div class="mdl-card__media">
+                                            <img src="images/home/courses/beginners.jpg" alt="beginner" />
+                                        </div>
+                                        <div class="mdl-card__title">
+                                            <span class="mdl-card__title-text">Welcome</span>
+                                        </div>
+                                        <div class="mdl-card__actions">
+                                            <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                                                Learn Now
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mdl-cell mdl-cell--3-col">
+                                    <div class="mdl-card mdl-shadow--2dp">
+                                        <div class="mdl-card__media">
+                                            <img src="images/home/courses/beginners.jpg" alt="beginner" />
+                                        </div>
+                                        <div class="mdl-card__title">
+                                            <span class="mdl-card__title-text">Welcome</span>
+                                        </div>
+                                        <div class="mdl-card__actions">
+                                            <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                                                Learn Now
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- course cell ends here -->
+                            </div>
+                        </div>
+                        <!-- course section ends here -->
+                        <!-- divider2 starts here -->
+                        <div class="divider-2">
+                            <hr>
+                            <div class="mdl-grid divider-row">
+                                <div class="mdl-cell mdl-cell--12-col divider-cell">
+                                    <h4>Learn Most popular CSS Framework from scratch</h4>
+                                    <button class=" mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect">Enroll Now</button>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                        <!-- divider2 ends here -->
+                        <!-- google map starts here -->
+                        <div class="google-map mdl-shadow--16dp">
+                            <div class="mdl-grid google-map-row">
+                                <div class="mdl-cell mdl-cell--12-col">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6047.488638330564!2d-74.00505667500558!3d40.72364471732227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598c5e51e2f3%3A0xce2f3449f490f818!2sSoHo%2C+New+York%2C+NY!5e0!3m2!1sen!2sus!4v1494454022620" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- google map ends here -->
+                        <!-- home footer section starts here -->
+                        <div class="mdl-grid">
+                            <div class='mdl-cell mdl-cell--12-col'>
+                                <footer class="mdl-mega-footer home-footer">
+                                    <div class="mdl-mega-footer__middle-section">
+                                        <div class="mdl-mega-footer__drop-down-section">
+                                            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                                            <h1 class="mdl-mega-footer__heading">Features</h1>
+                                            <ul class="mdl-mega-footer__link-list">
+                                                <li><a href="#">About</a></li>
+                                                <li><a href="#">Terms</a></li>
+                                                <li><a href="#">Partners</a></li>
+                                                <li><a href="#">Updates</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="mdl-mega-footer__drop-down-section">
+                                            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                                            <h1 class="mdl-mega-footer__heading">Details</h1>
+                                            <ul class="mdl-mega-footer__link-list">
+                                                <li><a href="#">Specs</a></li>
+                                                <li><a href="#">Tools</a></li>
+                                                <li><a href="#">Resources</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="mdl-mega-footer__drop-down-section">
+                                            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                                            <h1 class="mdl-mega-footer__heading">Technology</h1>
+                                            <ul class="mdl-mega-footer__link-list">
+                                                <li><a href="#">How it works</a></li>
+                                                <li><a href="#">Patterns</a></li>
+                                                <li><a href="#">Usage</a></li>
+                                                <li><a href="#">Products</a></li>
+                                                <li><a href="#">Contracts</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="mdl-mega-footer__drop-down-section">
+                                            <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                                            <h1 class="mdl-mega-footer__heading">FAQ</h1>
+                                            <ul class="mdl-mega-footer__link-list">
+                                                <li><a href="#">Questions</a></li>
+                                                <li><a href="#">Answers</a></li>
+                                                <li><a href="#">Contact us</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="mdl-mega-footer__bottom-section">
+                                        <div class="mdl-logo">Title</div>
+                                        <ul class="mdl-mega-footer__link-list">
+                                            <li><a href="#">Help</a></li>
+                                            <li><a href="#">Privacy & Terms</a></li>
+                                        </ul>
+                                    </div>
+                                </footer>
+                            </div>
+                        </div>
+                        <!-- home footer section ends here -->
+                        <!-- home dialog starts here -->
+                        <dialog class="mdl-dialog">
+                            <div class="mdl-dialog__content video-container">
+                                <iframe width="100%" height="420" src="https://www.youtube.com/embed/z-R2NzG1ygU" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div class="mdl-dialog__actions">
+                                <button class="mdl-button mdl-js-button mdl-button--fab  cancel mdl-button--mini-fab mdl-button--colored mdl-dialog-button">
+                                    <i class="material-icons">add</i>
+                                </button>
+                            </div>
+                        </dialog>
+                        <!-- home dialog ends here -->
+                    </div>
+                    <!-- home section content ends here -->
+                </div>
+                <!-- page contents end here -->
+            </section>
+            <!-- home contents end here -->
+            <!-- beginners contents start here -->
+            <section class="mdl-layout__tab-panel" id="beginners">
+                <div class="page-content">
+                    <!-- Your content goes here -->
+                </div>
+            </section>
+            <!-- beginners contents end here -->
+            <!-- intermediate contents start here -->
+            <section class="mdl-layout__tab-panel" id="intermediate">
+                <div class="page-content">
+                    <!-- Your content goes here -->
+                </div>
+            </section>
+            <!-- intermediate contents end here -->
+            <!-- expert contents start here -->
+            <section class="mdl-layout__tab-panel" id="expert">
+                <div class="page-content">
+                    <!-- Your content goes here -->
+                </div>
+            </section>
+            <!-- expert contents end here -->
+            <!-- preprocessor contents start here -->
+            <section class="mdl-layout__tab-panel" id="preprocessor">
+                <div class="page-content">
+                    <!-- Your content goes here -->
+                </div>
+            </section>
+            <!-- preprocessor contents end here -->
+            <!-- framework contents start here -->
+            <section class="mdl-layout__tab-panel" id="frameworks">
+                <div class="page-content">
+                    <!-- Your content goes here -->
+                </div>
+            </section>
+            <!-- framework contents end here -->
+            <!-- plugins contents start here -->
+            <section class="mdl-layout__tab-panel" id="plugins">
+                <div class="page-content">
+                    <!-- Your content goes here -->
+                </div>
+            </section>
+            <!-- framework contents end here -->
+            <!-- tips contents start here -->
+            <section class="mdl-layout__tab-panel" id="tips">
+                <div class="page-content">
+                    <!-- Your content goes here -->
+                </div>
+            </section>
+            <!-- tips contents end here -->
+            <!-- css contents start here -->
+            <section class="mdl-layout__tab-panel" id="css">
+                <div class="page-content">
+                    <!-- Your content goes here -->
+                </div>
+            </section>
+            <!-- css contents end here -->
+        </main>
+        <!-- mdl layout contents end here -->
+    </div>
+    <!-- mdl layout ends here -->
+    <!-- MDL Scripts-->
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <!-- App Scripts-->
+    <script src="js/app.js"></script>
+</body>
+
+</html>

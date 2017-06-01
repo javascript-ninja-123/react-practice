@@ -1,0 +1,18 @@
+{
+  "name": "practice",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.20.0",
+    "bootstrap": "^3.3.7",
+    "lodash": "^4.17.4",
+    "meteor-node-stubs": "~0.2.4",
+    "react": "^15.4.2",
+    "react-bootstrap": "^0.30.8",
+    "react-dom": "^15.4.2",
+    "semantic-ui-react": "^0.67.2",
+    "youtube-api-search": "0.0.5"
+  }
+}

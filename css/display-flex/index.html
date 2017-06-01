@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>The Flexbox : An Expert CSS Author Guide</title>
+    <link rel="stylesheet" href="style.css"> </head>
+
+<body>
+    <!-- blog title starts here -->
+    <h1>My blog posts</h1>
+    <!-- blog title ends here -->
+    <!-- only visible under 600px  starts here-->
+    <h3 class="display">Max broswe size is 600px</h3>
+    <button class="button">Column</button>
+    <!-- ends here -->
+    <!-- blog starts here -->
+    <section class="blogs" id="blogCol">
+        <!-- individual card starts here -->
+        <article class="blog blog-1">
+            <div class="blog-title">
+                <img src="http://lorempixel.com/100/100/" />
+                <h5>Sung Ypo</h5>
+            </div>
+            <div class="blog-body">
+                <h2>1.dsfadsfadsf</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In nostrum, illum dolorem non atque maiores voluptatibus. Expedita tenetur deleniti modi magni doloremque. Omnis aliquam, laboriosam. Perferendis perspiciatis vitae ullam, suscipit!</p>
+            </div>
+        </article>
+        <!-- individual card ends here -->
+
+        <!-- individual card starts here -->
+        <article class="blog blog-2">
+            <div class="blog-title">
+                <img src="http://lorempixel.com/100/100/" />
+                <h5>Sung Ypo</h5>
+            </div>
+            <div class="blog-body">
+                <h2>2.dsfadsfadsf</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In nostrum, illum dolorem non atque maiores voluptatibus. Expedita tenetur deleniti modi magni doloremque. Omnis aliquam, laboriosam. Perferendis perspiciatis vitae ullam, suscipit!</p>
+            </div>
+        </article>
+        <!-- individual card ends here -->
+
+         <!-- individual card starts here -->
+        <article class="blog blog-3">
+            <div class="blog-title">
+                <img src="http://lorempixel.com/100/100/" />
+                <h5>Sung Ypo</h5>
+            </div>
+            <div class="blog-body">
+                <h2>3.dsfadsfadsf</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In nostrum, illum dolorem non atque maiores voluptatibus. Expedita tenetur deleniti modi magni doloremque. Omnis aliquam, laboriosam. Perferendis perspiciatis vitae ullam, suscipit!</p>
+            </div>
+        </article>
+
+        
+         <!-- individual card ends here -->
+
+         
+
+    </section>
+    <!-- blog ends here -->
+    <script type="text/javascript">
+        let button = document.querySelector('.button');
+        var total = 1;
+        button.addEventListener('click',function(e){
+            e.preventDefault();
+            total++;
+            if(total % 2 === 0){
+                 document.getElementById('blogCol').className = 'col'
+            }
+            else if(total % 2 != 0){
+                document.getElementById('blogCol').className = 'blogs'
+            }
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+body{
+    background: #efefef;
+    font-size:3rem;
+}
+
+.box{
+     width: 100px;
+     height: 100px;
+     margin-bottom: 10px;
+}
+
+.green-box{
+    background: #27ae60;
+}
+
+.violet-box{
+    background: #8e44ad;
+}
+
+.yellow-box{
+    background: #f39c12;
+}
+
+.blue-box{
+    background: #2980b9;
+}
+
+.midnight-blue-box{
+    background: #2c3e50;
+}

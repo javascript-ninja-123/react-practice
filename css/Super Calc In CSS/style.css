@@ -1,0 +1,97 @@
+
+
+
+
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+.column{
+    width:calc(50%);
+    margin:0 auto;
+    height:100%;
+    background:#1abc9c;
+
+}
+.column > .header{
+    width:calc(100% /7);
+    background-color:red;
+    height:calc(100% / 7);
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-indent:10px;
+
+}
+
+
+.main-header{
+    background: url('img/snowman1.png') no-repeat,url('img/snow.jpg') no-repeat;
+    min-height: 100%;
+    background-position:calc(100% / 3) calc(100% - 40px),100%;
+    background-size:140px,cover;
+}
+
+
+
+
+.alert{
+
+    width:calc(100% - 100px);
+    margin:1rem auto;
+    height:55px;
+    border-radius:5px;
+    display:flex;
+    align-items: center;
+    font-size:110%;
+    color:white;
+}
+.alert > *{
+    margin-left:3%;
+}
+
+
+.success{
+     background: #2ecc71;
+}
+
+.warning{
+     background: #e67e22;
+}
+
+.danger{
+     background: #e74c3c;
+}
+
+
+
+
+
+
+
+/** Calc basic ****/
+
+/*
+
+html,
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+*/
+/**** your style goes here ****/
+/*
+.column{
+    width:calc(50% + 100px);
+    height: calc(100% - 200px);
+    background: #1abc9c;
+}
+
+*/

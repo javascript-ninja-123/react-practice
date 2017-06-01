@@ -1,0 +1,30 @@
+ 
+        <article>
+            <h2>Learning CSS3 selectors - "The basics" </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea voluptates, cum aliquam amet nam eligendi esse laboriosam ipsa consequatur vero inventore reprehenderit. <a href="#">read more</a> </p>
+        </article>
+        
+         <article>
+            <h2>Learning CSS3 selectors - "Attribute Selectors"</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea voluptates, cum aliquam amet nam eligendi esse laboriosam ipsa consequatur. <a href="#">read more</a></p>
+        </article>
+        
+         <article>
+            <h2>Learning CSS3 selectors - "Action PseudoClass Selectors"</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea voluptates, cum aliquam amet nam eligendi esse laboriosam ipsa consequatur. <a href="#">read more</a></p>
+        </article>
+        
+        <article>
+            <h2>Learning CSS3 selectors - "Structural Selectors"</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea voluptates, cum aliquam amet nam eligendi esse laboriosam ipsa consequatur. <a href="#">read more</a></p>
+        </article>
+        <article>
+            <h2>Learning CSS3 selectors - "Combinators Selectors"</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea voluptates, cum aliquam amet nam eligendi esse laboriosam ipsa consequatur. <a href="#">read more</a></p>
+        </article>
+        <article>
+            <h2>Learning CSS3 selectors - " Matching Patterns Selectors"</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea voluptates, cum aliquam amet nam eligendi esse laboriosam ipsa consequatur. <a href="#">read more</a></p>
+        </article>
+        
+        <img src="assets/1.jpg" alt=""><img src="assets/2.jpg" alt="">

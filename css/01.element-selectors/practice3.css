@@ -1,0 +1,12 @@
+
+section p{
+	font-size:150%;
+}
+
+h3 ~ p:first-letter{
+	color:blue;
+	font-size:120%;
+}
+section > p:nth-child(even){
+	background-color:blue;
+}
